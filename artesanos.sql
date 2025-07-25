@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3307
--- Tiempo de generación: 25-07-2025 a las 03:16:22
+-- Tiempo de generación: 25-07-2025 a las 03:34:48
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -70,7 +70,10 @@ CREATE TABLE `producto` (
 --
 
 INSERT INTO `producto` (`id_producto`, `nombre_producto`, `descripcion_producto`, `materiales_producto`, `precio_producto`, `imagen_producto`, `id_local`) VALUES
-(1, 'gorro de ranita', 'tejido a mano', 'lana', 35000.00, 'images\\monica1.jpeg', 1);
+(1, 'gorro de ranita', 'tejido a mano', 'lana', 35000.00, 'images\\monica1.jpeg', 1),
+(2, 'gorro de colitas', 'tejido a mano', 'lana', 40000.00, 'images\\monica2.jpeg', 1),
+(3, 'gorro con linea azul', 'tejido a mano', 'lana', 50000.00, 'images\\monica3.jpeg', 1),
+(4, 'Bolso de colombia', 'tejido a mano', 'lana', 130000.00, 'images\\monica4.jpeg', 1);
 
 -- --------------------------------------------------------
 
