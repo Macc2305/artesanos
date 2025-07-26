@@ -15,7 +15,7 @@ $pass = "";
 //EN ESTE CASO LA BASE DE DATOS SE LLAMA GUIA
 $dbname = "artesanos";
 //SOLICITUD DE CONEXIÓN A LA BASE DE DATOS
-$conn = new mysqli($host, $user, $pass, $dbname, 3307);
+$conn = new mysqli($host, $user, $pass, $dbname);
 //SE VERIFICA QUE LA CONEXIÓN A LA BASES DE DATOS SE HAGA
 //CORRECTAMENTE
 //DE LO CONTRARIO NOS MUESTRA EL ERROR "Conexión fallida"

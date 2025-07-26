@@ -34,7 +34,7 @@
 
 <html>
     <head lang="es">
-        <link rel="stylesheet" href="../styles/amparo.css">
+        <link rel="stylesheet" href="../styles/monica.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>artesanos</title>
@@ -76,7 +76,7 @@
                             <?php while ($producto = $resultado_producto->fetch_assoc()): ?>    
                                 <div class="card">
                                     <div class="card-body">
-                                        <img class="card-img-des" src="../<?php echo htmlspecialchars($producto['IMAGEN_PRODUCTO']); ?>" width="320px" height="275" alt="no hay yippee imagen XD">
+                                        <img class="card-img-des" src="../<?php echo htmlspecialchars($producto['IMAGEN_PRODUCTO']); ?>" width="213px" height="180" alt="no hay yippee imagen XD">
                                              
                                         <p class="card-text">
                                             <?php echo htmlspecialchars($producto['NOMBRE_PRODUCTO']); ?> 
