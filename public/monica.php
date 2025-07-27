@@ -34,7 +34,7 @@
 
 <html>
     <head lang="es">
-        <link rel="stylesheet" href="../styles/monica.css">
+        <link rel="stylesheet" href="../styles/artesanos.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>artesanos</title>
@@ -62,6 +62,7 @@
                                     <?php $local = $resultado_local->fetch_assoc() ?>
                                     <h2>Historia</h2>
                                     <p><?php echo htmlspecialchars($local['HISTORIA']); ?></p>
+                                    <br>
                                 <?php else: ?>
                                     <p class="p-account"><strong>No hay Historia</strong></p>
                                 <?php endif; ?>
