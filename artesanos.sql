@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-07-2025 a las 10:58:17
+-- Tiempo de generación: 29-07-2025 a las 00:50:51
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -82,16 +82,16 @@ INSERT INTO `producto` (`id_producto`, `nombre_producto`, `descripcion_producto`
 (8, 'Gorro degradado de verde', 'Gorro con un degradado de verdes tejido a mano', 'Lana', '50000.00', 'images\\monica8.jpeg', 1),
 (9, 'Bolso morado de tiritas', 'Un bolso morado con unas tiritas de colores amarillos morados y rosas tejido a mano', 'Lana', '70000.00', 'images\\monica9.jpeg', 1),
 (10, 'Gorro con una rosa', 'Gorro de color rosa y blanco con una flor en medio tejido a mano', 'Lana', '50000.00', 'images\\monica10.jpeg', 1),
-(11, 'Muñecas decorativas', 'muñecas decorativas elaboradas a mano', 'elaboradas en capacho de la mazorca, cabuya y semillas naturales \r\n', '45000.00', 'images\\marthayluiz1.jpeg', 3),
-(12, 'Imanes nevera de café', 'Imanes para la nevera de cafe con relación al Líbano', 'Hechos de café', '10000.00', 'images\\marthayluiz2.jpeg', 3),
-(13, 'Imanes nevera de madera', 'Imanes para la nevera hechos de madera con relación al Líbano Tolima', 'Hechos de madera', '12000.00', 'images\\marthayluiz3.jpeg', 3),
-(14, 'Pesebre en baúl', 'un pesebre en miniatura hecho de resina en un baúl', 'resina y madera', '25000.00-35000.00', 'images\\marthayluiz4.jpeg', 3),
-(15, 'Canastica de café', 'Una canasta pequeña decorativa de café hecha de manera artesanal', 'hecha de café', '25000.00', 'images\\marthayluiz5.jpeg', 3),
-(16, 'Gasas\r\n', 'Gasas o cinturones para bolsos tejidos a mano\r\n', 'hilo macrame\r\n', '25000.00', 'images\\marthayluiz6.jpeg', 3),
-(17, 'Bolso blanco y negro\r\n', 'un bolso de color blanco y principalmente negro bastante grande y espacioso tejido a mano\r\n', 'hilo macrame\r\n', '160000.00', 'images\\marthayluiz7.jpeg', 3),
-(18, 'Bolso de 4 colores\r\n', 'Un bolso tejido a mano de color verde rojo amarillo y negro bastante espacioso\r\n', 'hilo macrame\r\n', '120000.00', 'images\\marthayluiz8.jpeg', 3),
-(19, 'Bolso naranja\r\n\r\n', 'Bolso de color naranja tejido a mano bastante cómodo\r\n', 'lana de ovejo', '60000.00', 'images\\marthayluiz9.jpeg', 3),
-(20, 'Monederos\r\n\r\n', 'Monederos tejidos a mano de colores grandes y pequeños', 'Hilo macrame', '15000.00-20000.00', 'images\\marthayluiz10.jpeg', 3),
+(11, 'Muñecas decorativas', 'muñecas decorativas elaboradas a mano', 'elaboradas en capacho de la mazorca, cabuya y semillas naturales \r\n', '45000.00', 'images\\martha1.jpeg', 3),
+(12, 'Imanes nevera de café', 'Imanes para la nevera de cafe con relación al Líbano', 'Hechos de café', '10000.00', 'images\\martha2.jpeg', 3),
+(13, 'Imanes nevera de madera', 'Imanes para la nevera hechos de madera con relación al Líbano Tolima', 'Hechos de madera', '12000.00', 'images\\martha3.jpeg', 3),
+(14, 'Pesebre en baúl', 'un pesebre en miniatura hecho de resina en un baúl', 'resina y madera', '25000.00-35000.00', 'images\\martha4.jpeg', 3),
+(15, 'Canastica de café', 'Una canasta pequeña decorativa de café hecha de manera artesanal', 'hecha de café', '25000.00', 'images\\martha5.jpeg', 3),
+(16, 'Gasas\r\n', 'Gasas o cinturones para bolsos tejidos a mano\r\n', 'hilo macrame\r\n', '25000.00', 'images\\martha6.jpeg', 3),
+(17, 'Bolso blanco y negro\r\n', 'un bolso de color blanco y principalmente negro bastante grande y espacioso tejido a mano\r\n', 'hilo macrame\r\n', '160000.00', 'images\\martha7.jpeg', 3),
+(18, 'Bolso de 4 colores\r\n', 'Un bolso tejido a mano de color verde rojo amarillo y negro bastante espacioso\r\n', 'hilo macrame\r\n', '120000.00', 'images\\martha8.jpeg', 3),
+(19, 'Bolso naranja\r\n\r\n', 'Bolso de color naranja tejido a mano bastante cómodo\r\n', 'lana de ovejo', '60000.00', 'images\\martha9.jpeg', 3),
+(20, 'Monederos\r\n\r\n', 'Monederos tejidos a mano de colores grandes y pequeños', 'Hilo macrame', '15000.00-20000.00', 'images\\martha10.jpeg', 3),
 (21, 'Servilletero', 'hermoso servilletero, modelo máquina de café descerezadora en colores rojo, café y verde, que hace homenaje a nuestra tierra caficultora.', 'madera, pintura y laca.', '25000.00', 'images\\henry1.jpeg', 2),
 (22, 'Bolso tejido en crochet', 'Combinando tradición artesanal con un diseño moderno y funcional.\r\nElaborados con hilos de alta calidad, presenta un tejido firme, ligero y resistente, ideal para acompañarte en tu día a día.\r\n', 'Hilo crochet', '85000.00', 'images\\henry2.jpeg', 2),
 (23, 'Perfumería a base de aceite inspiradas en las marcas mas vendidas del mercado internacional.\r\n', 'Nuestros perfumes en aceite son una alternativa elegante, están elaborados a base de aceites esenciales y extractos aromáticos de alta concentración, lo que les permite ofrecer una duración prolongada y una experiencia olfativa mas intima y sofisticada.', 'Esencia a base de aceite inspirada en aromas florales, amaderados, dulces, cítricos, orientales, árabes, entre otros.', '5000.00-60000.00', 'images\\henry3.jpeg', 2),
@@ -124,7 +124,7 @@ CREATE TABLE `usuario` (
 INSERT INTO `usuario` (`id_usuario`, `nombre`, `correo`, `contraseña`, `imagen`) VALUES
 (1, 'Monica Maria Gonzales Duran', 'monigd@hotmail.com', 'Monigd1101', 'images\\monica.jpeg'),
 (2, 'Henry Yesid Quintero Garcia', 'henryquintero1808@gmail.com', 'David2718*', 'images\\henry.jpeg'),
-(3, 'Martha Malagon Guevara y Luiz Alberto Martinez', '1304pym@gmail.com', '0413', 'images\\marthayluiz.jpeg');
+(3, 'Martha Malagon Guevara', '1304pym@gmail.com', '0413', 'images\\martha.jpeg');
 
 --
 -- Índices para tablas volcadas
